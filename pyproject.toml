@@ -1,12 +1,14 @@
 [project]
 name = "financial-advisor"
 version = "0.1.0"
-description = "Building a Financial Advisor with LangGraph: From GPT to RAG and Multi-Agent Systems"
+description = "Building a Financial Advisor with LangChain: From GPT to Multi-Agent Systems"
 authors = [
-    { name = "Victor Gillioz", email = "victor.gillioz@visium.ch" },
+    { name = "Lucas Eckes", email = "lucas.eckes@visium.com" },
+    { name = "Alejandro Bonell", email = "alejandro.bonell@visium.com" },
+    { name = "Younes Moussaif", email = "younes.moussaif@visium.com" },
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "langchain>=0.2.14",
     "langgraph>=0.2.69",

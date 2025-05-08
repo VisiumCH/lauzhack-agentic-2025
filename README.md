@@ -1,32 +1,19 @@
 # Building Agents with LangGraph: From GPT to RAG and Multi-Agent Systems
 
-This workshop is organized by [Visium](https://visium.ch/) for the [Applied Machine Learning Days (AMLD) 2025](https://2025.appliedmldays.org/) at EPFL. It demonstrates how to build sophisticated AI agents using LangChain and LangGraph frameworks.
+This workshop is organized by [Visium](https://visium.com/) for LauzHack [LauzHack 2025](https://lauzhack.com/workshops) at EPFL. It gives an introduction to LLMs and demonstrates how to build sophisticated AI agents using LangChain.
 
 ## Workshop Overview
 The workshop explores the progression from basic language models to complex multi-agent systems through hands-on examples in financial analysis.
 
-### Part 1: Introduction to LangChain and RAG
+### Introduction to LLMs and Agents
 Learn the basics of building AI applications with LangChain, including:
 - Setting up a basic chatbot
-- Understanding Retrieval Augmented Generation (RAG)
-- Working with vector databases
-- Creating custom tools
-- Implementing a RAG-enhanced financial advisor
-
-### Part 2: Building a Multi-Agent System
-
-![Financial Assistant Workflow](imgs/financial-assistant-workflow.png)
-
-Explore more sophisticated AI applications using LangGraph:
-- Creating specialized AI agents
-- Managing state and workflow
-- Implementing agent communication
-- Building a complete financial analysis system with multiple agents
+- Setting up a basic agentic system
 
 ## Getting Started
 
 ### Prerequisites
-- Python 3.11 or higher
+- Python 3.12 or higher
 - OpenAI API key
 
 ### Environment Setup
@@ -79,16 +66,11 @@ This workshop uses Jupyter notebooks. You can run them using:
 - VS Code with the Python extension installed
 - Jupyter Lab through the web interface  with `jupyter lab`
 
-## Workshop Structure
-- `S1 - Introduction to LangChain and RAG.ipynb`: First session covering LangChain basics and RAG implementation
-- `S2 - Building a Multi-Agent System.ipynb`: Second session exploring multi-agent systems with LangGraph
-
-## Data
-The workshop uses a curated set of Bloomberg financial news articles for demonstration purposes. The data is stored in `data/bloomberg_financial_news_1k.pkl`.
-
 ## About
 ### Visium
-[Visium](https://visium.ch/) is a Swiss-born AI & Data company helping businesses build their data-driven future through artificial intelligence and advanced data analytics. We help organizations leverage cutting-edge technology to solve complex business challenges.
+[Visium](https://visium.com/) is a Swiss-born AI & Data company helping businesses build their data-driven future through artificial intelligence and advanced data analytics. We help organizations leverage cutting-edge technology to solve complex business challenges.
 
-### AMLD
-Applied Machine Learning Days (AMLD) is one of the largest machine learning and AI events in Europe, held annually at EPFL in Lausanne, Switzerland. For more information about AMLD 2025, visit [https://www.appliedmldays.org](https://www.appliedmldays.org).
+### LauzHack
+LauzHack is an association created by EPFL aiming to bring together students and machine
+learning professionals. They are well known for their Hackathon which is considered one of
+the largest in Lausanne. For more information about LauzHack, visit [https://lauzhack.com/](https://lauzhack.com/).
