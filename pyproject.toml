@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "Building a Financial Advisor with LangChain: From GPT to Multi-Agent Systems"
 authors = [
     { name = "Lucas Eckes", email = "lucas.eckes@visium.com" },
-    { name = "Alejandro Bonell", email = "alejandro.bonell@visium.ch" },
-    { name = "Younes Moussaif", email = "younes.moussaif@visium.ch" },
+    { name = "Alejandro Bonell", email = "alejandro.bonell@visium.com" },
+    { name = "Younes Moussaif", email = "younes.moussaif@visium.com" },
 ]
 readme = "README.md"
 requires-python = ">=3.11"

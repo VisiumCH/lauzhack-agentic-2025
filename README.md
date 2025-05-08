@@ -1,6 +1,6 @@
 # Building Agents with LangGraph: From GPT to RAG and Multi-Agent Systems
 
-This workshop is organized by [Visium](https://visium.ch/) for LauzHack [LauzHack 2025](https://lauzhack.com/workshops) at EPFL. It gives an introduction to LLMs and demonstrates how to build sophisticated AI agents using LangChain.
+This workshop is organized by [Visium](https://visium.com/) for LauzHack [LauzHack 2025](https://lauzhack.com/workshops) at EPFL. It gives an introduction to LLMs and demonstrates how to build sophisticated AI agents using LangChain.
 
 ## Workshop Overview
 The workshop explores the progression from basic language models to complex multi-agent systems through hands-on examples in financial analysis.
