@@ -58,7 +58,6 @@ class YahooFinanceNewsTool(BaseTool):
         company = yfinance.Ticker(query)
 
         try:
-            print(company)
             if company.isin is None:
                 return f"Company ticker {query} not found."
         except (HTTPError, ReadTimeout, ConnectionError):

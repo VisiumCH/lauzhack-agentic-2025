@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-financial_advisor.egg-info/PKG-INFO
-financial_advisor.egg-info/SOURCES.txt
-financial_advisor.egg-info/dependency_links.txt
-financial_advisor.egg-info/requires.txt
-financial_advisor.egg-info/top_level.txt
-src/yfinance_tool.py
