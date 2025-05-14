@@ -1,3 +1,23 @@
+Metadata-Version: 2.4
+Name: financial-advisor
+Version: 0.1.0
+Summary: Building a Financial Advisor with LangChain: From GPT to Multi-Agent Systems
+Author-email: Lucas Eckes <lucas.eckes@visium.com>, Alejandro Bonell <alejandro.bonell@visium.com>, Younes Moussaif <younes.moussaif@visium.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: langchain>=0.2.14
+Requires-Dist: langchain-openai>=0.1.22
+Requires-Dist: langchain-community>=0.3.0
+Requires-Dist: yfinance>=0.2.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: jupyter>=1.1.1
+Requires-Dist: ipywidgets>=8.1.5
+Requires-Dist: ipython>=8.32.0
+Requires-Dist: langgraph>=0.4.3
+Provides-Extra: dev
+Requires-Dist: mypy>=1.15.0; extra == "dev"
+Requires-Dist: ruff>=0.9.6; extra == "dev"
+
 # Building Agents with LangChain and LangGraph: From GPT to Multi-Agent Systems
 
 This workshop is organized by [Visium](https://visium.com/) for LauzHack [LauzHack 2025](https://lauzhack.com/workshops) at EPFL. It gives an introduction to LLMs and demonstrates how to build sophisticated AI agents using LangChain.
